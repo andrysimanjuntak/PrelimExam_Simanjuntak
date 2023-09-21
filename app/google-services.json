@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707470929772",
+    "project_id": "prelimexamsimanjuntak",
+    "storage_bucket": "prelimexamsimanjuntak.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707470929772:android:e8ddebe0bfe8e68b544d49",
+        "android_client_info": {
+          "package_name": "ph.edu.uic.prelimexam_simanjuntak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPdrACqA4QgQ7uKxN0sODrdBcKw6WfqwI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
