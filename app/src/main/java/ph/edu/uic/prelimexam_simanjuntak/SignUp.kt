@@ -17,6 +17,7 @@ class SignUp : AppCompatActivity() {
     private lateinit var edtEmail: EditText
     private lateinit var edtPassword: EditText
     private lateinit var btnSignUp: Button
+    private lateinit var btnBack: Button
 
     private lateinit var mAuth: FirebaseAuth
 
@@ -30,6 +31,7 @@ class SignUp : AppCompatActivity() {
         edtEmail = findViewById(R.id.edt_email)
         edtPassword = findViewById(R.id.edt_password)
         btnSignUp = findViewById(R.id.btnSignUp)
+        btnBack = findViewById(R.id.btnBack)
 
         mAuth = FirebaseAuth.getInstance()
 
@@ -40,6 +42,11 @@ class SignUp : AppCompatActivity() {
 
             signUp(email, password, name)
         }
+        btnBack.setOnClickListener {
+            val intent = Intent(this@SignUp, Login::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun signUp(email: String, password: String, name: String){
@@ -75,6 +82,7 @@ class SignUp : AppCompatActivity() {
                         //Toast.makeText(this@SignUp, "Some error occured", Toast.LENGTH_SHORT).show()
                     }
                 }
+
             .addOnFailureListener { exception ->
                 // Check for specific exceptions
                 when (exception) {

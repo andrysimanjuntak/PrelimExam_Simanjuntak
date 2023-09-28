@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="green">#1B5E20</color>
+    <color name="green_dark">#003300</color>
+    <color name="green_light">#A5D6A7</color>
+    <color name="blue">#0288D1</color>
+    <color name="blue_dark">#006971</color>
+    <color name="blue_light">#83f3ff</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="red">#c00016</color>
+    <color name="red_dark">#ba1a1a</color>
+    <color name="pink_light">#ffdad6</color>
+
+    <!--Colors for Dark Theme-->
+    <color name="blue_dark_theme">#4dd9e6</color>
+    <color name="blue_dark_dark_theme">#00363b</color>
+    <color name="blue_medium_dark_dark_theme">#004f55</color>
+    <color name="pink_dark_theme">#ffb4ab</color>
+    <color name="red_dark_dark_theme">#690004</color>
+    <color name="red_medium_dark_dark_theme">#930009</color>
+
 </resources>

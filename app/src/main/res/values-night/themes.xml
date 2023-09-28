@@ -2,6 +2,15 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.PrelimExam_Simanjuntak" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/blue_dark_theme</item>
+        <item name="colorPrimaryVariant">@color/blue_dark_dark_theme</item>
+        <item name="colorOnPrimary">@color/blue_medium_dark_dark_theme</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pink_dark_theme</item>
+        <item name="colorSecondaryVariant">@color/red_dark_dark_theme</item>
+        <item name="colorOnSecondary">@color/red_medium_dark_dark_theme</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
     </style>
 </resources>

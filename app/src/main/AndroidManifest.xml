@@ -13,12 +13,32 @@
         android:theme="@style/Theme.PrelimExam_Simanjuntak"
         tools:targetApi="31">
         <activity
+            android:name=".TaskBuddy"
+            android:exported="false" />
+        <activity
+            android:name=".BmiCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".TemperatureConversion"
+            android:exported="false" />
+        <activity
+            android:name=".HappyBirthday"
+            android:exported="false" />
+        <activity
+            android:name=".TipCalculator"
+            android:exported="false" />
+        <activity
+            android:name=".Lemonade"
+            android:exported="false" />
+        <activity
+            android:name=".CurrencyConversion"
+            android:exported="false" />
+        <activity
             android:name=".SignUp"
             android:exported="false" />
         <activity
             android:name=".Login"
             android:exported="true">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
